@@ -1,0 +1,72 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img{
+  height: 120px;
+  width: 220px;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+.sideHead li{
+  list-style-type: none;
+}
+.sideHead{
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  font-size: 35px;
+  padding: 10px;
+}
+.body{
+  margin-top: 30px;
+}
+.cart{
+  height: 350px;
+  width: 230px;
+  border: 1px solid lightgrey;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 10px;
+  
+}
+.cart img{
+  height: 50%;
+  width: 100%;
+}
+.content{
+  overflow-wrap: break-word;
+}
+.content h2{
+  padding-bottom: 10px;
+}
+.nav{
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+.login{
+  padding: 5px;
+  font-size: 20px;
+}
+.shim{
+  height: 350px;
+  width: 230px;
+  background-color: lightgrey;
+}
+.shimCarts{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 5rem;
+}
